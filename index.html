@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header .tagline {
+            font-size: 1.2em;
+            color: #ccc;
+        }
+
+        section {
+            padding: 2em 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
+        .profile-img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        #skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #skills li {
+            background: #f4f4f4;
+            margin: 0.5em;
+            padding: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .project {
+            margin-bottom: 2em;
+            text-align: center;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .project h3 {
+            margin-top: 0.5em;
+        }
+
+        #resume a {
+            display: block;
+            width: 200px;
+            margin: 1em auto;
+            padding: 0.5em;
+            text-align: center;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        #contact p {
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+
+            #skills ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Chetan Mahajan</h1>
+            
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="photo.jpg" alt="Your Image" class="profile-img">
+            <p>As an engineering student,I am deeply engaged in their academic journey, specializing in Electronis and telecommunication field. They possess a robust understanding of core engineering principles, complemented by hands-on experience in practical applications.It demonstrates proficiency in problem-solving and analytical skills, evident through their coursework and project work.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python language</li>
+                <li>C language</li>
+                
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="LPG_Gas_Leak_Detector.jpg" alt="Project Image" width="400" height="500">
+                <h3>LPG Gas Leak Detector</h3>
+                <p>The LPG gas leakage detector project involves designing and implementing a sensor-based system to detect leaks in liquefied petroleum gas (LPG) cylinders or pipelines. Utilizing gas sensors, microcontrollers, and communication modules, the system alerts users in real-time through audible alarms or notifications to prevent potential hazards. It aims to enhance safety by providing early detection and prompt response mechanisms, ensuring the timely containment of leaks and minimizing risks associated with LPG usage in residential or industrial settings.</p>
+         
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <a href="Resume.pdf" download>Download My Resume</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:your-email@example.com">chetanmahajan909@gmail.com</a></p>
+            <p>Phone: 7588377954</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 chetan mahajan. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
